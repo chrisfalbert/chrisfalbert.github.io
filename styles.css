@@ -63,6 +63,11 @@ ul{ margin: 10px 0 10px 20px; }
 
 a{ color: var(--link); }
 a:hover{ text-decoration: underline; }
+.author-link,
+.author-link:hover{
+  color: inherit;
+  text-decoration: none;
+}
 
 hr{
   border:0;
@@ -103,6 +108,10 @@ hr{
   height: 100%;
   object-fit: contain;
   border-radius: 10px;
+}
+.upcoming{
+  text-align: center;
+  margin-top: 12px;
 }
 .home-text{
   flex: 1;
