@@ -88,3 +88,34 @@ hr{
   color: var(--muted);
   font-size: 14px;
 }
+
+.home-layout{
+  display: flex;
+  gap: 22px;
+  align-items: stretch;
+}
+.home-photo{
+  flex: 0 0 220px;
+}
+.home-photo img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.home-text{
+  flex: 1;
+}
+
+@media (max-width: 720px){
+  .home-layout{
+    flex-direction: column;
+  }
+  .home-photo{
+    flex-basis: auto;
+  }
+  .home-photo img{
+    height: auto;
+  }
+}
