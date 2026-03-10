@@ -61,7 +61,11 @@ main h2{
 p{ margin: 10px 0; }
 ul{ margin: 10px 0 10px 20px; }
 
-a{ color: var(--link); }
+a,
+a:visited{
+  color: var(--link);
+  text-decoration: none;
+}
 a:hover{ text-decoration: underline; }
 .author-link,
 .author-link:visited,
