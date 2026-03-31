@@ -76,6 +76,19 @@ a:hover{ text-decoration: underline; }
   text-decoration: none;
 }
 
+.hidden-link,
+.hidden-link:visited,
+.hidden-link:hover,
+.hidden-link:active,
+.hidden-link:focus{
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.hidden-item{
+  margin-top: 28px;
+}
+
 hr{
   border:0;
   border-top:1px solid var(--border);
