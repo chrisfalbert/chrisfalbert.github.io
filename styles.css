@@ -151,6 +151,53 @@ hr{
 .home-text p:first-child{
   margin-top: 0;
 }
+.profile-links{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 18px 0;
+}
+.profile-link,
+.profile-link:visited{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  color: var(--text);
+  text-decoration: none;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+.profile-link:hover{
+  text-decoration: none;
+  transform: translateY(-1px);
+  opacity: 0.8;
+}
+.profile-link:focus-visible{
+  outline: 2px solid var(--link);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+.profile-link svg,
+.profile-link img{
+  width: 34px;
+  height: 34px;
+  display: block;
+  object-fit: contain;
+}
+.profile-link-linkedin img{
+  width: 38px;
+  height: 38px;
+}
+.profile-link-cv{
+  width: 62px;
+  height: 62px;
+}
+.profile-link-cv svg{
+  width: 58px;
+  height: 58px;
+  transform: translateY(-4px);
+}
 
 @media (max-width: 720px){
   .home-layout{
