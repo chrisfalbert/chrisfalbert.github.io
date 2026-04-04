@@ -209,4 +209,30 @@ hr{
   .home-photo img{
     height: auto;
   }
+  .profile-links{
+    gap: 10px;
+  }
+  .profile-link,
+  .profile-link:visited{
+    width: 44px;
+    height: 44px;
+  }
+  .profile-link svg,
+  .profile-link img{
+    width: 28px;
+    height: 28px;
+  }
+  .profile-link-linkedin img{
+    width: 31px;
+    height: 31px;
+  }
+  .profile-link-cv{
+    width: 52px;
+    height: 52px;
+  }
+  .profile-link-cv svg{
+    width: 48px;
+    height: 48px;
+    transform: translateY(-3px);
+  }
 }
